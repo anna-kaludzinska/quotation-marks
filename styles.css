@@ -1,0 +1,15 @@
+blockquote#en::before {
+   content: "\0022";
+}
+
+blockquote#en::after {
+    content: "\0022";
+}
+
+blockquote#pl::before {
+    content: "\201E";
+}
+
+blockquote#pl::after {
+    content: "\201D";
+}
