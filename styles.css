@@ -1,3 +1,6 @@
+q:lang(en) { quotes: '"' '"'; }
+q:lang(pl) { quotes: '„' '”'; }
+
 blockquote#en::before {
    content: "\0022";
 }
